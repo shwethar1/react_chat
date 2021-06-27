@@ -1,10 +1,13 @@
-# Getting Started with Create React App
+# React_Chat
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hi My name is Shwetha Radhakrishnan. This fictitious Chat Engine App is developed for the residents and interns of Seattle Grace Hospital from the popular Netflix show "Grey's Anatomy". The Grey's anatomy cast finds their way through their tough residency program by forming relationships, friendships, and scrubbing in on surgeries together. This app models potential conversations the interns and residents could be chatting about. This app features online status updates, real time response, read reciept functionality, ability to create new chat groups, text/attatchment/image support, and the ability to add new users through chatengine.io
 
-## Available Scripts
+built using React JS Sockets, Rest APIs, React Hooks, Props, HTML, and CSS
 
-In the project directory, you can run:
+Backend was hosted by chatengine.io
+
+npm install's included: @ant-design/icons, axios, react-chat-engine
+
 
 ### `npm start`
 
@@ -14,57 +17,43 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+# App Walk-through
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+after loading the app you will see this screen
+![image](https://user-images.githubusercontent.com/64232154/123532553-0fbb1480-d6dc-11eb-84ba-99ee2d372746.png)
 
-### `npm run build`
+you are currently logged in as globaluser1, Christina Yang.
+I have created five different users in chatengine.io for you all to login as and play around the engine with.
+The credentials are below
+1) Christina Yang, username: globaluser1, password:1234
+2) Derek Shepherd, username: globaluser2, password: 1234
+3) Meredith Grey, username: globaluser3, password: 1234
+4) Miranda Bailey, username: globaluser4, password: 1234
+5) Alex Karev, username: globaluser5, password: 1234
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+you can send messages , images, and attatchments as Christina, if you click under people you can see that you have the green light next to you indicating that you are active.
+After you send a message, since read-reciepts are on, all users that are active can read your message.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To have multiple users active at the same time you can simply open localhost:3000 in a different browser and do the following:
+![image](https://user-images.githubusercontent.com/64232154/123533128-eb156b80-d6e0-11eb-830a-e693bfc489d9.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://user-images.githubusercontent.com/64232154/123533173-257f0880-d6e1-11eb-9b69-07d8e4e8b35d.png)
 
-### `npm run eject`
+clearing, will take you back to log in page, I can log in as Derek Shephard now, in Microsoft edge as opposed to Google Chrome. Now this is Derek's view of the screen and both Christina and Derek are active.
+![image](https://user-images.githubusercontent.com/64232154/123533225-932b3480-d6e1-11eb-954a-45a693bbaf3a.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The following is back to Christina's view on google Chrome:
+![image](https://user-images.githubusercontent.com/64232154/123533249-c077e280-d6e1-11eb-9655-c3ac4c456ada.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Inputting the wrong credentials will give you this error:
+![image](https://user-images.githubusercontent.com/64232154/123533285-003eca00-d6e2-11eb-827a-5202a9468715.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Happy Chatting!
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
