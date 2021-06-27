@@ -41,6 +41,9 @@ right click on app, and click 'inspect'->'Application'->Local Storage-> and hit 
 
 
 clearing, will take you back to log in page, I can log in as Derek Shephard now, in Microsoft edge as opposed to Google Chrome. Now this is Derek's view of the screen and both Christina and Derek are active.
+
+![image](https://user-images.githubusercontent.com/64232154/123533410-4d6f6b80-d6e3-11eb-8eb1-607fa3171a7b.png)
+
 ![image](https://user-images.githubusercontent.com/64232154/123533225-932b3480-d6e1-11eb-954a-45a693bbaf3a.png)
 
 The following is back to Christina's view on google Chrome:
