@@ -35,9 +35,10 @@ you can send messages , images, and attatchments as Christina, if you click unde
 After you send a message, since read-reciepts are on, all users that are active can read your message.
 
 To have multiple users active at the same time you can simply open localhost:3000 in a different browser and do the following:
-![image](https://user-images.githubusercontent.com/64232154/123533128-eb156b80-d6e0-11eb-830a-e693bfc489d9.png)
+right click on app, and click 'inspect'->'Application'->Local Storage-> and hit 'clear' to clear the credentials
+![image](https://user-images.githubusercontent.com/64232154/123533366-f073b580-d6e2-11eb-91fb-59cd6ddb81b3.png)
+![image](https://user-images.githubusercontent.com/64232154/123533382-0aad9380-d6e3-11eb-9ef0-a4a470dbcf67.png)
 
-![image](https://user-images.githubusercontent.com/64232154/123533173-257f0880-d6e1-11eb-9b69-07d8e4e8b35d.png)
 
 clearing, will take you back to log in page, I can log in as Derek Shephard now, in Microsoft edge as opposed to Google Chrome. Now this is Derek's view of the screen and both Christina and Derek are active.
 ![image](https://user-images.githubusercontent.com/64232154/123533225-932b3480-d6e1-11eb-954a-45a693bbaf3a.png)
